@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- change title for every page -->
+  <title>Beatrice Mihiro Aquilani | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" alt="Beatrice Mihiro Aquilani - logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- HEADER until here - (same across pages) -->
+
+<!--  image carousel -->
+<section class="hero">
+  <div class="slides">
+    <div class="slide" style="background-image: url('images/1_canepardo.png');"></div>
+    <div class="slide" style="background-image: url('images/2_future_funds.png');"></div>
+    <div class="slide" style="background-image: url('images/3_portraitry.png');"></div>
+  </div>
+
+  <div class="hero-content">
+    <h1>welcome.</h1>
+    <p>i'm passionate about creating meaningful digital experiences that combine design, storytelling, and technology.<br>
+      my mission is to bridge creativity and interactivity.<br>
+      designing work that engages audiences, communicates clearly, and inspires connection.</p>
+    <a href="portfolio.html" class="btn">SEE MY WORK</a>
+  </div>
+
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+
+<!-- Catch the Falling Carrot Game -->
+<section class="game-section">
+  <h2>Catch the Falling Carrots!</h2>
+  <p>Use your mouse to move the horse and catch the carrots. Can you beat your high score?</p>
+  <div id="game-container"></div>
+</section>
+
+
+<!--  FOOTER (same across pages) -->
+<footer>
+  <span>© beatrice mihiro aquilani 2025</span>
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/beatrice-mihiro-aquilani/" class="icon linkedin"></a>
+    <a href="mailto:beatrice.aquilani@gmail.com" class="icon email"></a>
+  </div>
+</footer>
+
+
+<!-- cursor game -->
+<div class="cursor"></div>
+
+<!-- Connect JavaScript file -->
+ <script src="script.js"></script>
+
+<!-- Include p5.js library -->
+<script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.min.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>

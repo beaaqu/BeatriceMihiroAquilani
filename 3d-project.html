@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- change title for every page -->
+  <title>Beatrice Mihiro Aquilani | 3D Toy Scene</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="portfolio-container">
+  <h1>3D Toy Scene & Animation</h1>
+  <h2 style="text-align:center";>Modelling, Rendering & Motion - <em>3DS Max</em></h2>
+
+  <p>This project explores both static and animated 3D design, combining technical modelling skills with visual storytelling. The work was developed across two connected assignments: first creating a photorealistic 3D scene, and then extending it into a fully animated sequence.</p>
+
+  <!-- Concept -->
+  <h2>Concept & Approach</h2>
+  <div class="project">
+    <div class="project-text">
+    <p>The goal was to create a 3D environment inspired by tabletop games and toys from popular culture. The scene was set inside a minimal interior space with a wooden floor and painted walls. This simplified environment was intentionally designed to emphasise the objects themselves, which were scaled larger than life to create a playful and surreal atmosphere.</p>
+    <p>Five original 3D objects were created from scratch:</p>
+
+    <ul>
+        <li>A metal dice</li>
+        <li>A basketball</li>
+        <li>A rubber <em>Among Us</em> figurine</li>
+        <li>A glass chess king and queen</li>
+        <li>Wooden toy blocks spelling “B E A”</li>
+    </ul>
+
+    <p>Each object was designed to demonstrate different modelling techniques, material properties, and lighting interactions.</p>
+    </div>
+    <img src="images/3d_project.jpg" alt="3D Rendered Scene">
+  </div>
+
+  <!-- Modelling -->
+  <h2>Modelling & Geometry</h2>
+  <p>The modelling process relied heavily on <strong>procedural workflows</strong> and <strong>parametric surfaces</strong>, allowing for flexibility and precision throughout development.</p>
+  <p>The dice and basketball were created using structured modifier-based workflows, starting from simple primitives and progressively refining them through subdivision, chamfering, and symmetry. This approach ensured clean topology and made it easy to iterate on proportions and detail.</p>
+  <p>The chess pieces were created using spline-based modelling and a lathe modifier, producing smooth, symmetrical forms ideal for glass materials. Parametric control allowed the silhouette to be refined efficiently without rebuilding the geometry.</p>
+  <p>Overall, this workflow demonstrated an understanding of efficient, non-destructive modelling techniques commonly used in 3D production.</p>
+
+  <!-- Materials -->
+  <h2>Materials & Texturing</h2>
+  <div class="project">
+    <div class="project-text">
+        <p>A strong focus was placed on material realism through the use of:</p>
+      <ul>
+        <li><strong>Texture mapping</strong> for surfaces such as wood and flooring</li>
+        <li><strong>Bump mapping</strong> to simulate fine surface detail (e.g. the basketball texture)</li>
+        <li><strong>Reflective and refractive materials</strong>, particularly for the metal dice and glass chess pieces</li>
+      </ul>
+      <p>Careful UV mapping ensured textures were applied consistently without distortion, contributing to the overall realism of the scene.</p>
+    </div>
+
+    <img src="images/3d_texture.png" alt="Texture Mapping">
+  </div>
+
+  <!-- Lighting -->
+  <h2>Lighting & Rendering</h2>
+  <p>Lighting played a key role in achieving a photorealistic result. The scene used a combination of multiple light sources to simulate natural and artificial lighting conditions.</p>
+  <p><strong>Global illumination</strong> was implemented to simulate light bouncing between surfaces, producing soft shadows, subtle reflections, and realistic colour interaction between objects. Ambient lighting was also used to reduce harsh contrast and maintain visibility across the scene.</p>
+  <p>These techniques helped unify the environment and enhanced the believability of the materials.</p>
+
+  <!-- Animation -->
+  <h2>Animation & Motion</h2>
+  <p>The second stage of the project involved transforming the static scene into a 20-second animation.</p>
+  <p>The animation was planned using a <strong>hand-drawn storyboard</strong>, mapping out camera movement and object behaviour across multiple shots. This ensured a clear narrative flow before production began.</p>
+  <img src="images/3d_storyboard.png" style="width:100%; margin:20px 0;">
+
+  <p>The final animation includes:</p>
+  <ul>
+    <li>A wide establishing shot introducing the full scene</li>
+    <li>Smooth camera movements transitioning between objects</li>
+    <li>Individual object animations (jumping, rotating, bouncing, rolling)</li>
+    <li>A final shot where all objects animate simultaneously</li>
+  </ul>
+
+  <p>Keyframe animation was used to control both object movement and camera behaviour. Techniques such as rotation, translation, and timing were carefully adjusted to create natural, readable motion.</p>
+  <p>The animation was rendered as an image sequence and assembled into a final video using Adobe Premiere Pro.</p>
+
+  <!-- VIDEO -->
+  <video controls style="width:100%; margin-top:20px;">
+    <source src="images/3d_animation.mp4" type="video/mp4">
+  </video>
+
+  <!-- Outcome -->
+  <h2>Outcome</h2>
+  <p>This project demonstrates a full 3D workflow, from modelling and texturing to lighting, rendering, and animation. It highlights both technical problem-solving and creative decision-making, particularly in balancing realism with a playful, stylised concept.</p>
+  <p>By combining a clean environment with detailed materials and controlled animation, the final result presents a cohesive and engaging 3D scene that effectively showcases core principles of visual computing and design.</p>
+
+</div>
+
+<!--  FOOTER (same across pages) -->
+<footer>
+  <span>© beatrice mihiro aquilani 2025</span>
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/beatrice-mihiro-aquilani/" class="icon linkedin"></a>
+    <a href="mailto:beatrice.aquilani@gmail.com" class="icon email"></a>
+  </div>
+</footer>
+
+
+<!-- cursor game -->
+<div class="cursor"></div>
+
+<!-- Connect JavaScript file -->
+ <script src="script.js" defer></script>
+ 
+</body>
+</html>

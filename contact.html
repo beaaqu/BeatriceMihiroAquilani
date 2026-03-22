@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- change title for every page -->
+  <title>Beatrice Mihiro Aquilani | Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.png">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="images/logo.png" alt="Beatrice Mihiro Aquilani - logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HEADER until here - (same across pages) -->
+
+<section class="contact-section">
+  <h1>let's talk</h1>
+  <form id="contact-form" action="https://formspree.io/f/mjkjpowo" method="POST"> <!-- sends me an email with the message -->
+    <label for="name">NAME:</label>
+    <input type="text" id="name" name="name" placeholder="your full name" required>
+
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+    <label for="message">MESSAGE:</label>
+    <textarea id="message" name="message" placeholder="write your message here!" required></textarea>
+
+    <button type="submit">SEND</button>
+  </form>
+  <!-- contact form thank you message -->
+  <div id="thank-you-message" style="display:none; text-align:center; margin-top:30px;">
+    <h2>Thank you!</h2>
+  </div>
+
+
+</section>
+
+
+<!--  FOOTER (same across pages) -->
+<footer>
+  <span>© beatrice mihiro aquilani 2025</span>
+  <div class="socials">
+    <a href="https://www.linkedin.com/in/beatrice-mihiro-aquilani/" class="icon linkedin"></a>
+    <a href="mailto:beatrice.aquilani@gmail.com" class="icon email"></a>
+  </div>
+</footer>
+
+
+
+<!-- cursor game -->
+<div class="cursor"></div>
+
+<!-- Connect JavaScript file -->
+ <script src="script.js"></script>
+
+</body>
+</html>

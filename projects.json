@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "title": "BLAZE",
+      "subtitle": "BRAND STYLE GUIDE",
+      "category": "BRAND IDENTITY",
+      "image": "images/4_blaze.png",
+      "images": [
+        "images/4_blaze.png",
+        "images/31_blaze.png",
+        "images/32_blaze.png",
+        "images/33_blaze.png",
+        "images/34_blaze.png",
+        "images/35_blaze.png",
+        "images/36_blaze.png",
+        "images/37_blaze.png",
+        "images/38_blaze.png",
+        "images/39_blaze.png",
+        "images/40_blaze.png"
+      ],
+      "description": "This comprehensive identity system for a fictional social platform for Gen X adults includes logo development, typography, color systems, and usage rules. It merges professionalism with warmth using muted colors, sans-serif fonts, and a conversational tone. The guide features scalable logos, digital-safe fonts (Inter and Bubbleboddy), and accessible color contrast. I plan to improve the monochrome logo options and expand the iconography system to fully match the brand voice across all platforms."
+    },
+    {
+      "title": "CAMP WOOF & WIGGLES",
+      "subtitle": "HTML & CSS WEBSITE",
+      "category": "WEB DESIGN",
+      "image": "images/5_camp_woof.png",
+      "images": [
+        "images/5_camp_woof.png",
+        "images/41_camp_woof.png",
+        "images/42_camp_woof.png",
+        "images/43_camp_woof.png"
+      ],
+      "description": "This project is a fully designed HTML and CSS website for a fictional dog-sitting and boarding facility called Camp Woofs and Wiggles. The site showcases a warm, friendly brand identity with clear sections for the mission statement, services, pricing, and unique offerings such as doggy day camp, boarding, grooming, and pup parties. I focused on creating an inviting layout that highlights key information while maintaining an easy-to-navigate structure. The design emphasizes readability, playful visual elements, and a user-friendly experience that reflects the fun, energetic nature of the camp."
+    },
+    {
+      "title": "ALICE & THE CLOCKWORK REALM",
+      "subtitle": "BOOK COVER DESIGN",
+      "category": "PUBLICATION LAYOUT",
+      "image": "images/6_book_cover.png",
+      "description": "This editorial project includes a custom-designed book cover and matching interior spread layout. The project allowed me to explore print design and narrative typography, applying strong visual hierarchy and harmony between type and imagery. Color, font pairing, and cover-image integration were all optimized for professional publishing standards. I iterated on the interior grid to balance aesthetics and legibility. This artifact reflects my ability to create cohesive editorial designs with storytelling impact."
+    },
+    {
+      "title": "FRESH FARE FARMS",
+      "subtitle": "MULTIMEDIA CAMPAIGN",
+      "category": "ADVERT DESIGN",
+      "image": "images/7_fresh_fare.jpg",
+      "images": [
+        "images/7_fresh_fare.jpg",
+        "images/29_fresh_fare.gif",
+        "images/30_fresh_fare.png"
+      ],
+      "description": "This campaign includes a magazine ad, digital leaderboard animation, and a seamless Instagram carousel, created for a meal kit brand with a mission to support food banks during Hunger Action Month. The white background, consistent color palette, and repeating tagline ensure visual cohesion. Design consistency and audience alignment were key: warm imagery, brand fonts, and sustainability messaging. I originally explored colored backgrounds but switched to white across all formats for better readability and clarity, this is a strong example of iterative design improvement."
+    },
+    {
+      "title": "TECH-CROWD",
+      "subtitle": "INFOGRAPHIC",
+      "category": "INFOGRAPHIC",
+      "image": "images/8_tech_crowd.png",
+      "description": "This infographic, created for the fictional tech-focused brand TechCrowd, visualizes how social media usage has evolved across age, gender, and income groups over the past decade. Designed to communicate complex demographic data in a clear and engaging way, it highlights major shifts—such as rising adoption among older adults, growing engagement among women, and consistent usage within higher-income brackets. The piece blends clean visual hierarchy with data-driven storytelling to showcase how thoughtful design can make trends more accessible and meaningful for a modern, tech-savvy audience."
+    },
+    {
+      "title": "DONUT BYTES",
+      "subtitle": "INFOGRAPHIC",
+      "category": "INFOGRAPHIC",
+      "image": "images/9_donut_bytes.png",
+      "description": "This infographic, designed for the fictional brand Donut Bytes, transforms sales data from the second half of the year into a clear and engaging visual story. Using a combination of bar charts, line graphs, and pie charts, the piece highlights top-selling donut flavors, emerging seasonal patterns, and each product’s contribution to overall revenue. The design focuses on turning complex data into an accessible narrative—showcasing key insights such as the dominance of classic flavors, holiday-driven sales growth, and opportunities within lower-performing categories. This project demonstrates my ability to blend visual clarity with data storytelling, creating graphics that support informed decision-making while maintaining a polished, branded aesthetic."
+    },
+    {
+      "title": "NATIVE AMERICAN HERITAGE",
+      "subtitle": "MAGAZINE DESIGN",
+      "category": "PUBLICATION LAYOUT",
+      "image": "images/10_native_american.png",
+      "description": "This project showcases my editorial design skills through a custom magazine page layout focused on Native American Heritage Month. I combined thoughtful typography, balanced column structure, and cohesive visual hierarchy to create a page that feels both informative and visually engaging. The illustrated centerpiece is integrated seamlessly with the text, enhancing storytelling while maintaining readability. Careful attention to spacing, font pairing, and color harmony helps convey a respectful, culturally grounded tone throughout the design."
+    },
+    {
+      "title": "SCOOP SHOPPE",
+      "subtitle": "ANIMATED ADVERT",
+      "category": "ADVERT DESIGN",
+      "image": "images/11_scoop_shoppe.gif",
+      "description": "This animated digital banner ad promotes a fictional ice cream brand targeting children and families. It uses playful motion, bright colors, and expressive typography to capture attention in under 10 seconds. Animation principles (such as smooth transitions, CTA emphasis, and simple motion paths) were implemented in Photoshop. It's a fun, high-energy artifact that demonstrates my motion design skills and marketing sensibility."
+    },
+    {
+      "title": "FOCUS 05",
+      "subtitle": "SUBWAY BANNER ADVERT DESIGN",
+      "category": "ADVERT DESIGN",
+      "image": "images/12_focus.png",
+      "images":  [
+        "images/12_focus.png",
+        "images/13_focus.png",
+        "images/14_focus.png"
+      ],
+      "description": "Developed in a Design Thinking course, this campaign rebranded a fictional Manhattan restaurant using empathy-based research and lifestyle visuals. I created three subway ad variations, each targeting Millennial values like sustainability, community, and experience-based dining. Design principles such as typographic hierarchy, user-centered color palettes, and bold imagery were applied. Revisions focused on refining copy and QR code placement."
+    }
+  ]
+}
