@@ -15,9 +15,12 @@ function preload() {
 }
 
 function setup() {
-  let container = document.getElementById("game-container");
-  let canvas = createCanvas(container.offsetWidth, container.offsetHeight);
+  const container = document.getElementById("game-container");
+  const canvas = createCanvas(container.clientWidth, container.clientHeight);
   canvas.parent("game-container");
+
+  pixelDensity(1); // THIS FIXES THE WHITE LINE
+
   player = new Horse(width / 2, height - 80);
 }
 
