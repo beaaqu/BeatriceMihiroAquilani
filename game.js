@@ -1,4 +1,4 @@
-// ===== Catch the Falling Carrots (p5.js) =====
+// Catch the Falling Carrots (p5.js)
 let horseImg, carrotImg, fieldImg;
 let player;
 let carrots = [];
@@ -15,8 +15,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(600, 400);
-  canvas.parent("game-container"); // attach canvas to div
+  let canvas = createCanvas(window.innerWidth, window.innerHeight);
+  canvas.parent("game-container");
   player = new Horse(width / 2, height - 80);
 }
 
@@ -131,4 +131,8 @@ function drawGameOver() {
   text("GAME OVER", width / 2, height / 2 - 20);
   textSize(18);
   text("Final Score: " + score, width / 2, height / 2 + 20);
+}
+
+function windowResized() {
+  resizeCanvas(window.innerWidth, window.innerHeight);
 }
