@@ -850,11 +850,14 @@ footer {
 
 .hero-content {
   position: relative;
-  z-index: 3; /* above slides */
+  z-index: 10;
   max-width: 800px;
   text-align: center;
-  padding: 0 20px;
-  transform: translateY(-20%);
+  padding: 30px 40px;
+
+  /* NEW 👇 */
+  background: rgba(0, 0, 0, 0.6);   /* dark transparent box */
+  backdrop-filter: blur(4px);      /* subtle glass effect (optional but nice) */
 }
 .hero h1 {
   font-family: "Carelia", serif;
