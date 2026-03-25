@@ -15,7 +15,8 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(window.innerWidth, window.innerHeight);
+  let container = document.getElementById("game-container");
+  let canvas = createCanvas(container.offsetWidth, container.offsetHeight);
   canvas.parent("game-container");
   player = new Horse(width / 2, height - 80);
 }
@@ -134,5 +135,6 @@ function drawGameOver() {
 }
 
 function windowResized() {
-  resizeCanvas(window.innerWidth, window.innerHeight);
+  let container = document.getElementById("game-container");
+  resizeCanvas(container.offsetWidth, container.offsetHeight);
 }
