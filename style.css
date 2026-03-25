@@ -954,23 +954,24 @@ footer {
   position: absolute;
   inset: 0;
   z-index: 1;
+  pointer-events: none;
 }
 
 /* Make canvas fill nicely */
 #game-container canvas {
-  width: 100% !important;
-  height: 100% !important;
   object-fit: cover;
   display: block;
 }
+
 
 /* Dark overlay for readability (like your old carousel) */
 #game-container::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0,0,0,0.25); /* lighter */
   z-index: 2;
+  pointer-events: none;
 }
 
 /* Text stays on top */
