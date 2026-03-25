@@ -860,6 +860,7 @@ footer {
   font-family: "Carelia", serif;
   font-size: 64px;
   margin-bottom: 20px;
+  color: var(--white)
 }
 .hero p {
   font-family: "League Spartan", sans-serif;
@@ -867,6 +868,7 @@ footer {
   max-width: 800px;
   margin: 0 auto 30px;
   line-height: 1.5;
+  color: var(--white)
 }
 .hero .btn {
   background: var(--black);
